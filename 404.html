@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <script>
       // Redirige a index.html preservando la ruta
-      sessionStorage.redirect = location.pathname;
-      window.location.href = "/";
+      sessionStorage.redirect = location.pathname + location.search + location.hash;
+      window.location.href = "/PortafolioValentinAngeletti/";
     </script>
   </head>
   <body></body>
